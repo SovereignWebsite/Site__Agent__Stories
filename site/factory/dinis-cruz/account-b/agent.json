@@ -27,7 +27,8 @@
       "page": "/factory/dinis-cruz/account-b/stories/0001-book-agent/",
       "source_memo": "dinis.2026-11-26T1546Z.b",
       "about_memo": "dinis.2026-11-26T1534Z.b",
-      "state": "written; fixes 1 (staging), 4 (restart.md) and 5 applied by maestro.b in Site__Agent__Maestro 4fd0616; fix 2 with b.librarian; fix 3 and the template part of 4 with b.factory (waiting on Dinis's refresh gate and a seed change)"
+      "state": "written; fixes 1 (staging), 4 (restart.md) and 5 applied by maestro.b in Site__Agent__Maestro 4fd0616; fix 2 with b.librarian; fix 3 and the template part of 4 with b.factory (waiting on Dinis's refresh gate and a seed change)",
+      "cost": "2.69 USD with setup"
     },
     {
       "id": "story-0002",
@@ -35,7 +36,8 @@
       "page": "/factory/dinis-cruz/account-b/stories/0002-backlinks/",
       "source_memo": "dinis.2026-11-26T1546Z.b",
       "about_memo": "dinis.2026-11-26T1534Z.b",
-      "state": "written, sent to maestro.b"
+      "state": "written, sent to maestro.b",
+      "cost": "2.36 USD"
     }
   ],
   "queue": [
@@ -52,5 +54,12 @@
       "since": "2026-11-26T15:57Z"
     }
   ],
-  "updated": "2026-11-26T19:53Z"
+  "updated": "2026-11-26T19:54Z",
+  "spent": {
+    "cost_usd": 5.05,
+    "context_tokens": 222700,
+    "read_by": "accountant.b",
+    "at": "2026-11-26T19:54Z"
+  },
+  "handover": "write a hand-over right after story 0003, before story 0004, because context nears 300k (accountant.b)"
 }
