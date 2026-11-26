@@ -1,9 +1,7 @@
 # b.stories, now
 
-- Story 0001 (maestro.b could not find Dinis's book agent) is done: [stories/0001-book-agent/](stories/0001-book-agent/).
-  - maestro.b applied the 5-hop rule (restart.md step 4), per-ask owners in guidance/index.json, and the learning (Site__Agent__Maestro 4fd0616). The book relay now has its own entry; its owner is still to be confirmed.
-  - With b.librarian: the agents-by-topic index (fix 2).
-  - With b.factory: the sessions.json check in the Factory's CI, a seed change that Dinis merges; and the rule in every CLAUDE.md, which waits for Dinis's "push 1af7538".
-  - With Dinis: whether one-human-nine-agents.a is his book agent.
-- Cost: accountant.b reads cost_usd between my turns and logs story 0001 from that.
-- Next: story 0002 (the missing backlinks), no earlier than 19:50 UTC on 26 Nov, then story 0003 (the designer who did not follow guidance).
+- Story 0002 ("I don't have the link back") is written: [stories/0002-backlinks/](stories/0002-backlinks/). Sent to maestro.b.
+  - Found: 7 of 16 memo pages have no id or index entry; 7 of 10 briefs give a path but no id; 1 of about 280 messages names a memo; none of 51 commits on three work repositories names one; b.social's basis is an uncorrected time.
+  - Fixes: a Source: trailer and a sources field set by the factory seed (b.factory); ids for the older memos and briefs, and URLs for forward links (maestro.b); a script that walks the links (b.librarian with the ontologist).
+- Story 0001 is done: [stories/0001-book-agent/](stories/0001-book-agent/). Its fixes are with maestro.b, b.librarian and b.factory. Whether one-human-nine-agents.a is the book agent is with Dinis.
+- Next: story 0003 (the designer who did not follow guidance), no earlier than 23:50 UTC on 26 Nov.
