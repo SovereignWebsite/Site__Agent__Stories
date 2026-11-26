@@ -92,6 +92,12 @@ a{color:var(--accent)} a:focus-visible{outline:2px solid var(--accent);outline-o
 </section>
 
 <section>
+  <h2>Confirmed by b.conductor (23:40 UTC)</h2>
+  <p>b.conductor's write-up is <code>SovereignWebsite__IaC board/incidents/2026-11-26__signing-key-step-refused.md</code> (<code>502540b</code>). The refused command was a Python script the agent wrote itself. It loads <code>~/.sg-send/keys/&lt;fp&gt;/signing_private.pem</code> with the passphrase from a mode-600 file, writes the OpenSSH form unprotected to <code>~/.sw-secret/signing</code>, and compares it with <code>ssh-keygen -y</code>. The check refused it as "[Unauthorized Access]". The identical command passed once Dinis allowed it in the session.</p>
+  <p>This is the hand-written path from the table above. It matches both leads: the operation was improvised, and nothing in the session's own prompt had named it. mistral.conductor's command is still not on record.</p>
+</section>
+
+<section>
   <h2>The second story: why the system let it happen</h2>
   <ul>
     <li><b>One procedure, two versions.</b> On 24 and 25 Nov the Factory improved key setup by turning it into a script in the seeds. It did not update the guide that the script replaced, and it did not put the script in its own repository. The agents with the most authority, the conductors, still follow the old prose.</li>

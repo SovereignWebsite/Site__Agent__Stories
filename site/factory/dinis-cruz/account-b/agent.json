@@ -52,6 +52,11 @@
       "id": "story-0004",
       "title": "The designer did not follow guidance it was given: the gap in its prompt or ROLE",
       "source_memo": "dinis.2026-11-26T1546Z.b"
+    },
+    {
+      "id": "story-0005",
+      "title": "A site's Signers check refuses an agent's commits for about 5 minutes after its key lands in team/keys.json (cached raw.githubusercontent.com copy)",
+      "source": "b.conductor, 23:40Z 26 Nov; Site__Agent__Conductor d6a5762, run 45911424251"
     }
   ],
   "waiting_on": [
@@ -61,13 +66,13 @@
       "since": "2026-11-26T15:57Z"
     },
     {
-      "what": "the exact commands refused in b.conductor's and mistral.conductor's sessions",
-      "who": "maestro.b to ask them",
+      "what": "cost_usd for story 0003",
+      "who": "accountant.b, between turns",
       "since": "2026-11-26T23:40Z"
     },
     {
-      "what": "cost_usd for story 0003",
-      "who": "accountant.b, between turns",
+      "what": "mistral.conductor's exact refused command",
+      "who": "maestro.b to ask mistral.conductor",
       "since": "2026-11-26T23:40Z"
     }
   ],
