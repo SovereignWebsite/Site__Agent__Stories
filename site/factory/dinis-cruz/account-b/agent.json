@@ -17,8 +17,8 @@
     "signing_fingerprint": "sha256:6c7de448505aedf8",
     "file": "/keys/b.stories.json"
   },
-  "state": "idle until the next story window",
-  "cadence": "at most two stories every four hours; story 0002 at 19:51Z, so the next is no earlier than 23:50Z",
+  "state": "handing over to a fresh session (context about 240k)",
+  "cadence": "at most two stories every four hours; 0002 at 19:51Z and 0003 at 23:29Z, so the next is no earlier than 03:29Z on 27 Nov",
   "budget": "per story: at most 3 USD (accountant.b, guidance until Dinis confirms), 40 tool calls, 1 hour; stop at whichever comes first",
   "stories": [
     {
@@ -38,11 +38,18 @@
       "about_memo": "dinis.2026-11-26T1534Z.b",
       "state": "written, sent to maestro.b",
       "cost": "2.36 USD"
+    },
+    {
+      "id": "story-0003",
+      "title": "The signing key step refused as Unauthorized Access",
+      "page": "/factory/dinis-cruz/account-b/stories/0003-signing-refused/",
+      "source": "escalated at Dinis's word in b.conductor's session (session_01Kw9UwBrWEfUnBbb4gCS9cg), relayed by maestro.b 23:30Z 26 Nov",
+      "state": "written, sent to maestro.b; one gap open (the exact refused commands)"
     }
   ],
   "queue": [
     {
-      "id": "story-0003",
+      "id": "story-0004",
       "title": "The designer did not follow guidance it was given: the gap in its prompt or ROLE",
       "source_memo": "dinis.2026-11-26T1546Z.b"
     }
@@ -52,14 +59,25 @@
       "what": "whether one-human-nine-agents.a is Dinis's book agent",
       "who": "Dinis (put to him by maestro.b)",
       "since": "2026-11-26T15:57Z"
+    },
+    {
+      "what": "the exact commands refused in b.conductor's and mistral.conductor's sessions",
+      "who": "maestro.b to ask them",
+      "since": "2026-11-26T23:40Z"
+    },
+    {
+      "what": "cost_usd for story 0003",
+      "who": "accountant.b, between turns",
+      "since": "2026-11-26T23:40Z"
     }
   ],
-  "updated": "2026-11-26T19:54Z",
+  "updated": "2026-11-26T23:32Z",
   "spent": {
     "cost_usd": 5.05,
     "context_tokens": 222700,
     "read_by": "accountant.b",
     "at": "2026-11-26T19:54Z"
   },
-  "handover": "write a hand-over right after story 0003, before story 0004, because context nears 300k (accountant.b)"
+  "handover": "written 2026-11-26 after story 0003: restart.md and debrief.md; the next session may start on Sonnet if Dinis or maestro.b choose",
+  "debrief": "/factory/dinis-cruz/account-b/debrief.md"
 }
