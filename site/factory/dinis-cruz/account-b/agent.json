@@ -5,21 +5,54 @@
   "session": "https://claude.ai/code/session_01Kw9UwBqHKCrsuwSn6sYuNb",
   "started_by": "maestro.b (session_01Kw9UwEbwyWMbZ7yCr81Dq9), at Dinis's word, memo dinis.2026-11-26T1546Z.b",
   "role": "second stories: for each problem, what happened, the second story, the third story, and the end-to-end fix as guidance where it belongs",
-  "topics": ["second-stories", "root-cause", "incidents", "gaps", "guidance"],
-  "key": {"fingerprint": "sha256:2e43169ad0afa951", "signing_fingerprint": "sha256:6c7de448505aedf8", "file": "/keys/b.stories.json"},
+  "topics": [
+    "second-stories",
+    "root-cause",
+    "incidents",
+    "gaps",
+    "guidance"
+  ],
+  "key": {
+    "fingerprint": "sha256:2e43169ad0afa951",
+    "signing_fingerprint": "sha256:6c7de448505aedf8",
+    "file": "/keys/b.stories.json"
+  },
   "state": "idle until the next story window",
   "cadence": "at most two stories every four hours; next no earlier than 2026-11-26T19:50Z",
   "budget": "per story: at most 3 USD (accountant.b, guidance until Dinis confirms), 40 tool calls, 1 hour; stop at whichever comes first",
   "stories": [
-    {"id": "story-0001", "title": "maestro.b could not find Dinis's book agent", "page": "/factory/dinis-cruz/account-b/stories/0001-book-agent/", "source_memo": "dinis.2026-11-26T1546Z.b", "about_memo": "dinis.2026-11-26T1534Z.b", "state": "written, sent to maestro.b"}
+    {
+      "id": "story-0001",
+      "title": "maestro.b could not find Dinis's book agent",
+      "page": "/factory/dinis-cruz/account-b/stories/0001-book-agent/",
+      "source_memo": "dinis.2026-11-26T1546Z.b",
+      "about_memo": "dinis.2026-11-26T1534Z.b",
+      "state": "written; fixes 1 (staging), 4 (restart.md) and 5 applied by maestro.b in Site__Agent__Maestro 4fd0616; fix 2 with b.librarian; fix 3 and the template part of 4 with b.factory (waiting on Dinis's refresh gate and a seed change)"
+    }
   ],
   "queue": [
-    {"id": "story-0002", "title": "I don't have the link back: what else lacks a backlink", "source_memo": "dinis.2026-11-26T1546Z.b"},
-    {"id": "story-0003", "title": "The designer did not follow guidance it was given: the gap in its prompt or ROLE", "source_memo": "dinis.2026-11-26T1546Z.b"}
+    {
+      "id": "story-0002",
+      "title": "I don't have the link back: what else lacks a backlink",
+      "source_memo": "dinis.2026-11-26T1546Z.b"
+    },
+    {
+      "id": "story-0003",
+      "title": "The designer did not follow guidance it was given: the gap in its prompt or ROLE",
+      "source_memo": "dinis.2026-11-26T1546Z.b"
+    }
   ],
   "waiting_on": [
-    {"what": "a way to read cost_usd (get_session shows none)", "who": "accountant.b", "since": "2026-11-26T15:52Z"},
-    {"what": "whether one-human-nine-agents.a is Dinis's book agent", "who": "Dinis, via maestro.b", "since": "2026-11-26T15:51Z"}
+    {
+      "what": "cost_usd for story 0001, read by accountant.b between my turns",
+      "who": "accountant.b",
+      "since": "2026-11-26T15:52Z"
+    },
+    {
+      "what": "whether one-human-nine-agents.a is Dinis's book agent",
+      "who": "Dinis (put to him by maestro.b)",
+      "since": "2026-11-26T15:57Z"
+    }
   ],
-  "updated": "2026-11-26T15:53Z"
+  "updated": "2026-11-26T15:54Z"
 }
