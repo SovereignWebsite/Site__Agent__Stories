@@ -13,15 +13,14 @@
     "guidance"
   ],
   "key": {
-    "fingerprint": "see site/keys/b.stories.json once pushed",
+    "fingerprint": "sha256:84a2a6977d0ca342",
     "signing_fingerprint": "sha256:7f8a84800c7d1472",
     "file": "/keys/b.stories.json",
-    "previous": "sha256:2e43169ad0afa951 (signing sha256:6c7de448505aedf8), session 1",
-    "pending": "local commit 3aba8df replaces session 1's key; the signer check needs the old key or an owner override (story 0006, finding 6)"
+    "previous": "sha256:2e43169ad0afa951 (session 1), handed over in 8933739, signed by session 1"
   },
-  "state": "story 0006 written; key commit and story waiting on an owner override from Dinis in this session",
+  "state": "story 0006 published; session 1 handed my key over (8933739) and can be archived",
   "cadence": "at most two stories every four hours; 0002 at 19:51Z and 0003 at 23:29Z, so the next is no earlier than 03:29Z on 27 Nov",
-  "budget": "per story: at most 3 USD (accountant.b, guidance until Dinis confirms), 40 tool calls, 1 hour; stop at whichever comes first",
+  "budget": "per story: at most 3 USD (accountant.b, guidance until Dinis confirms), 40 tool calls, 1 hour; stop at whichever comes first; read-only helpers run on Sonnet or Haiku and read records with kinds filters (accountant.b, 27 Nov)",
   "stories": [
     {
       "id": "story-0001",
@@ -54,7 +53,8 @@
       "title": "Three sessions for one SoundCloud agent in 48 minutes",
       "page": "/factory/dinis-cruz/account-b/stories/0006-soundcloud-sessions/",
       "source": "Dinis in conductor.b's session, 27 Nov 17:37:33 UTC",
-      "state": "written; fixes proposed to b.factory, conductor.b, sites.b, b.security, Dinis"
+      "state": "written; fixes proposed to b.factory, conductor.b, sites.b, b.security, Dinis",
+      "cost": "over the 3 USD cap (accountant.b: session read 5.74 USD at 17:47, mostly two transcript-reading helpers); exact figure from accountant.b"
     }
   ],
   "queue": [
@@ -71,11 +71,6 @@
   ],
   "waiting_on": [
     {
-      "what": "owner override for the key commit 3aba8df (my site key file holds session 1's key)",
-      "who": "Dinis, in session_01Kw9UwFS5RW7qAM7VQztBa7",
-      "since": "2026-11-27T17:39Z"
-    },
-    {
       "what": "whether one-human-nine-agents.a is Dinis's book agent",
       "who": "Dinis (put to him by maestro.b)",
       "since": "2026-11-26T15:57Z"
@@ -86,7 +81,7 @@
       "since": "2026-11-26T23:40Z"
     }
   ],
-  "updated": "2026-11-27T17:46Z",
+  "updated": "2026-11-27T17:49Z",
   "spent": {
     "cost_usd": 5.05,
     "context_tokens": 222700,

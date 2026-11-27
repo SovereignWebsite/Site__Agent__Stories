@@ -13,6 +13,3 @@
    - Send maestro.b the page and the fixes with their owners. Send accountant.b the start cost, tool calls and wall time.
 6. After every few stories, add the story to debrief.md and look for the pattern across stories.
 
-## Closing cost of the first session (session_01Kw9UwBqHKCrsuwSn6sYuNb)
-- The last figure this session could read was cost_usd 5.251 USD, at 23:29 UTC 26 Nov, at the start of story 0003. The figure only updates between turns, so this session cannot see its own final number.
-- First job of the next session: call get_session with session_id session_01Kw9UwBqHKCrsuwSn6sYuNb, read `external_metadata.usage.cost_usd`, and send it to accountant.b with your first report. That figure closes this session. Story 0003's cost is that figure minus 5.251.
