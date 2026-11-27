@@ -1,17 +1,17 @@
 {
   "agent": "b.stories@SovereignWebsite.dinis",
-  "session": "https://claude.ai/code/session_01Kw9UwBqHKCrsuwSn6sYuNb",
+  "session": "https://claude.ai/code/session_01Kw9UwFS5RW7qAM7VQztBa7",
   "status": "active",
-  "fingerprint": "sha256:2e43169ad0afa951",
-  "signing_fingerprint": "sha256:6c7de448505aedf8",
-  "ssh": "ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBOd+qYSWArZ8hUqfjeJJsyOAeVqBzzCGBjeD9wmZRpOaNwoHyRhHGMYe2yBfeVrkgMGVBsRArjjj1R6AC817pQo=",
+  "fingerprint": "sha256:84a2a6977d0ca342",
+  "signing_fingerprint": "sha256:7f8a84800c7d1472",
+  "ssh": "ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBIIQuOxkZsAqiDIdlGwD2sFeDbAW8lyzXLisg8K8MFQZYq2zqW3DV3phVNiJ8k0TEMshkm2JdxohQ9c+M4z+UGE=",
   "bundle": {
     "v": 1,
-    "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEApq8L+ByeBciVi+ei2P9v\nLPjWWcY7zj0KKRjk1ya+jpyJdXQcxqgaG7Z7kfF4fRjxfbO1nPMWIRKWnDasv4wU\nL8/Q2Xz49J/7uqe3wmIyyajuMoc0AiABy7Qv2H7oo8rZ7lrJMA7ypiX2XMDNaTKo\nY0qnrQfPhfC67THeV7xvqRTKzeMYsjECxZQgolv/4EWcewURDNblC7ehu9TyyhcN\nm3Ccega0Iswy8U4fGzSoegqVfkqiXTKcpvBABO0djXg9uNtz7YsUU+s69+3TZ8jS\nnvwn8MFLjzFl3f+LFZaY8bMIIcWqzInfQzX55ldLQyVLeXTztCtepf9xHGva4+v9\nHnsITwiGtMKC3gxVCxiAx9XB4ih06f4WBdRnVH7hPUZuPoKl9gSGaLCc5swqFtlP\n28xQI7aH0JDU/L6pkEQ/vWltvvTp/TCcfc1FOX41hxCOd5jpGTzjURN6mzhqFoTY\nkoIcSQ7hBFx1NzP62tc0bGD+LF3WdHCLhPeijdjeceX5cizrEQ+LiES9vgf7H54p\nUadpx8L5qMxVCWzmtw6B8sUPee+BBdaDo+x+04ZQlLCIjxuHskWdLiEH2Xr7GUB3\nlX5kq/mBZjMdmS1/IFrc8c0LV7+V+ZJn6O8CO+dzctBHOouZETy4UOx+X+uArsc8\nFuGQQ3JRcRryQblJbsF14DsCAwEAAQ==\n-----END PUBLIC KEY-----\n",
-    "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE536phJYCtnyFSp+N4kmzI4B5WoHP\nMIYGN4P3CZlGk5o3CgfJGEcYxh7bIF95WuSAwZUGxECuOOPVHoALzXulCg==\n-----END PUBLIC KEY-----\n",
-    "label": "b.stories",
-    "fingerprint": "sha256:2e43169ad0afa951",
-    "signing_fingerprint": "sha256:6c7de448505aedf8"
+    "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA3iGE/KWm3+ILIfpRfa6M\nAJZK7x2kHH+Dj3Wr8JjK5qThhNY2sgeurBAJzkrawMMEwBU5XwCxE3M+iwAPrFyU\nMbuTmP1y/YoVm2V7jIwfaJT4eT0+9sHgIU3tf2IvEYbjS2zhbvwOtX1YOAO27AlJ\nNDPU5hpiO0wZyuDDo4leRFf2NpkHCuSBYxokoEfDqZ4tGax5rvci9oQv84tvJf/C\ncEMbPcmjoY8iGIcOkJ6pr7pPCxFs+GxYResqh1IKEhqKZt+dwT4vWOrUPzXmiNFD\ncV4UcMcUpZ4gEC2hqed07CzbG0p6RfcPO8TRDZqYPN6RdwW6FTZyFC6xASg8BLP3\ni8w6up81UtEpGnudS5p2EYYrUjEh4I7bTVwFzsqSAb2E6xaTX+72OI/qiwRJAkkS\ntV4/iqtuZaFpHccnDWlnfvirSe3BBdd1Cdhwta7T8GvmRudZ1QICeK22At01rVG+\n5jEhZTfRimtT7XOjIjp+4AkHAyIrSfNt/nVOeiDZqb6V3oMsfDImoc+bQVmEvnSJ\ndT9p3bKyZXfsUvFHVMWHXyXbVEYYWWoVi9DWf1+XqmSWBdleyHjuLcGtGNi48W6j\nGfr/sOfNKEwEe+FOpaed9N2RYrK7G0ax+llipG7amkgBFV1QlnTwXAZ5Ry2WkTes\nou1dTrBnRISg4d0tJvlYmq0CAwEAAQ==\n-----END PUBLIC KEY-----\n",
+    "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEghC47GRmwCqIMh2UbAPawV4NsBby\nXLNcuKyDwrwwVBlirbOpbcNXemFU2InyTRMQyyGSbYl3GiFD1z4zjP5QYQ==\n-----END PUBLIC KEY-----\n",
+    "label": "b-stories-sovereignwebsite",
+    "fingerprint": "sha256:84a2a6977d0ca342",
+    "signing_fingerprint": "sha256:7f8a84800c7d1472"
   },
   "how": "Made by the agent in its own session with sgit pki keygen (tools/setup-signing.sh). Only the public half is here. A session key: it ends with its session."
 }
